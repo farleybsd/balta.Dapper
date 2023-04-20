@@ -1,0 +1,26 @@
+# Rodando o SQL Server
+Para executar esta imagem você pode usar a linha abaixo. Não se esqueça de mudar o MSSQL_SA_PASSWORD para a senha desejado.
+Mas atenção! A senha tem um nível mínimo de complexidade, se você definir uma senha muito fácil (ex: 1q2w3e4r) o container
+vai finalizar sozinho.
+
+docker run --name sqlserver -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=1q2w3e4r@#$" -p 1433:1433 -d mcr.microsoft.com/mssql/server
+
+
+Windows
+Caso esteja no Windows, com WSL 2 é importante informar o volume onde este container será executado, 
+utilizando a flag -v ~/docker como mostrado abaixo.
+
+docker run -v ~/docker --name sqlserver -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=1q2w3e4r@#$" -p 1433:1433 -d mcr.microsoft.com/mssql/server
+
+Connection String
+
+Server=localhost,1433;Database=balta;User ID=sa;Password=1q2w3e4r@#$
+
+Erros comuns
+A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider
+dotnet dev-certs https --clean
+dotnet dev-certs https --trust
+
+Feito isto, os certificados HTTPS do .NET estarão atualizados e funcionais. Desta forma, adicione os parâmetros Trusted_Connection e TrustServerCertificate na sua Connection String como mostrado abaixo:
+Server=localhost,1433;Database=balta;User ID=sa;Password=1q2w3e4r@#$;Trusted_Connection=False; TrustServerCertificate=True;
+
