@@ -1,0 +1,3 @@
+## Instalando o Dapper
+
+dotnet add package Dapper vesao 2.0.90
