@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wmikSsUuzW5vY7i8bw/LjxKqu89gzlmaz8nYSRC0Y1WGJEEPHMYKEABGEBRh71+tIH/LhlJmtoJMjNT5QO6wTA==",
+  "dgSpecHash": "t9mmgC7v8Pn5gbV4CUGjZGbzfG7Q432LnLmTxErbHKv8JCcNJzFjctTWpJWL+bdJPZHTRYTC4PSuJYSrmA+yfg==",
   "success": true,
   "projectFilePath": "C:\\MyGit\\balta.Dapper\\Dapper.Desafio\\Dapper.Desafio\\Dapper.Desafio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\farley.rufino\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
+    "C:\\Users\\farley.rufino\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\farley.rufino\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.3\\microsoft.data.sqlclient.2.1.3.nupkg.sha512",
     "C:\\Users\\farley.rufino\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

@@ -43,3 +43,4 @@ C:\MyGit\balta.Dapper\Dapper.Desafio\Dapper.Desafio\obj\Debug\net5.0\refint\Dapp
 C:\MyGit\balta.Dapper\Dapper.Desafio\Dapper.Desafio\obj\Debug\net5.0\Dapper.Desafio.pdb
 C:\MyGit\balta.Dapper\Dapper.Desafio\Dapper.Desafio\obj\Debug\net5.0\Dapper.Desafio.genruntimeconfig.cache
 C:\MyGit\balta.Dapper\Dapper.Desafio\Dapper.Desafio\obj\Debug\net5.0\ref\Dapper.Desafio.dll
+C:\MyGit\balta.Dapper\Dapper.Desafio\Dapper.Desafio\bin\Debug\net5.0\Dapper.Contrib.dll

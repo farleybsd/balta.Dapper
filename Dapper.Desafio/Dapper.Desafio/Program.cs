@@ -6,7 +6,7 @@ namespace Dapper.Desafio
 {
     internal class Program
     {
-        private const string connectionString = "Server=localhost,1433;Database=balta;User ID=sa;Password=1q2w3e4r@#$";
+        private const string connectionString = @"Server=localhost,1433;Database=Blog;User ID=sa;Password=1q2w3e4r@#$";
 
         static void Main(string[] args)
         {
